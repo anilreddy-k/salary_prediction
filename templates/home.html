@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience Form</title>
+</head>
+<body>
+
+    <h2>Experience Form</h2>
+    <form action="response" method="POST">
+        <label for="experience">Enter your experience (in years):</label>
+        <input type="number" id="experience" name="experience" min="0" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <b>
+        for the experience of {{results[0]}} years, you'll get a salary of {{results[1]}} dollars
+    </b>
+
+</body>
+</html>
